@@ -17,3 +17,8 @@
 #pragma once
 
 // place overrides here
+#ifdef UNICODE_SELECTED_MODES
+#    undef UNICODE_SELECTED_MODES
+#    define UNICODE_SELECTED_MODES UC_LNX
+#endif
+
